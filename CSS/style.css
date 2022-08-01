@@ -43,7 +43,7 @@ body {
 .index{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .btn-index{
@@ -51,6 +51,8 @@ body {
   cursor: pointer;
   font-size: 18px;
   font-weight: 500;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .btn-index_current{
@@ -90,4 +92,30 @@ body {
   font-family: Roboto Mono;
   font-size: 18px;
   font-weight: 300;
+}
+
+.cv a{
+  background: none;
+  border: #52057B 4px solid;
+  height: 50px;
+  width: 150px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.4s linear;
+  -webkit-transition: background-color 0.4s linear;
+  -moz-transition: background-color 0.4s linear;
+  -ms-transition: background-color 0.4s linear;
+  -o-transition: background-color 0.4s linear;
+}
+
+.cv a:hover{
+  background-color: #52057B;
+}
+
+.download-btn{
+  all: unset;
+  cursor: pointer;
+  font-size: 18px;
 }
