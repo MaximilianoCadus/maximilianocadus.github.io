@@ -17,12 +17,10 @@
         <img class="mc" src="/img/MC logo - Blanco.png" alt="" />
       </div>
       <!-- Index -->
-      <div class="index">
-        <button class="btn-index btn-index_current">Home</button>
-        <button class="btn-index">About me</button>
-        <button class="btn-index">Projects</button>
-        <button class="btn-index">Contact</button>
-      </div>
+      <nav class="navbar">
+        <button class="btn-nav"><a href="https://github.com/MaximilianoCadus" target="_blank">GitHub</a></button>
+        <button class="btn-nav"><a href="https://www.linkedin.com/in/maximilianocadus/" target="_blank">LinkedIn</a></button>
+      </nav>
     </header>
 
     <!-- PRESENTATION -->
@@ -97,11 +95,12 @@
     <section class="contactMe">
       <h1><span class="section-number">03.</span>Contact me</h1>
       <div class="contactMe-container">
-        <form class="contactMe-form" autocomplete="off">
+        <form class="contactMe-form" autocomplete="off" action="https://formspree.io/f/xlevraly"
+        method="POST">
           <input name="name" type="text" class="feedback-input" placeholder="Name" />
-          <input name="email" type="text" class="feedback-input" placeholder="Email" />
-          <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-          <input type="submit" value="SUBMIT"/>
+          <input name="email" type="email" class="feedback-input" placeholder="Email" />
+          <textarea name="message" class="feedback-input" placeholder="Comment"></textarea>
+          <input type="submit" value="SEND"/>
         </form>
       </div>
     </section>

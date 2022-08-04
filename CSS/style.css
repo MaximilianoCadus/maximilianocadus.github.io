@@ -17,6 +17,11 @@ body {
   height: 100px;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #000000;
 }
 
 .footer{
@@ -52,13 +57,13 @@ body {
   width: 30px;
 }
 
-.index{
+.navbar{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.btn-index{
+.btn-nav{
   all: unset;
   cursor: pointer;
   font-size: 18px;
@@ -73,14 +78,14 @@ body {
   -o-transition: border 0.4s linear;
 }
 
-.btn-index:hover{
+.btn-nav:hover{
   border-bottom: #52057B 5px solid;
   letter-spacing: 3px;
   font-size: 18.5px;
 }
 
-.btn-index_current{
-  color: #52057B;
+.btn-nav a{
+  all: unset;
 }
 
 section{
@@ -94,6 +99,7 @@ section{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 .img-container{
