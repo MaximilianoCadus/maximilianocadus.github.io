@@ -1,0 +1,54 @@
+@media screen and (max-width: 1000px){
+
+    .header{
+      width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .presentation{
+      width: 100%;
+      padding-left: 30px;
+    }
+
+    .img-container{
+        display: none;
+    }
+
+    .presentation-container{
+      width: 100%;
+    }
+
+    .aboutMe{
+      width: 100%;
+    }
+
+    .projects{
+      width: 100%;
+    }
+
+    .project{
+        height: 180px;
+        width: 280px;
+        margin-right: 15px;
+    }
+
+    .contactMe{
+      width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+    .projects-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .project{
+        height: 180px;
+        width: 280px;
+        margin-bottom: 15px;
+    }
+}

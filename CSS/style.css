@@ -24,18 +24,6 @@ body {
   background-color: #000000;
 }
 
-.footer{
-  height: 150px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer p{
-  color: #ffffff7e;
-  border-bottom: #52057b89 4px solid;
-}
-
 .mc-container{
   margin-top: 15px;
   margin-left: 15px;
@@ -88,9 +76,16 @@ body {
   all: unset;
 }
 
-section{
-  width: 100%;
-  height: 100%;
+.footer{
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer p{
+  color: #ffffff7e;
+  border-bottom: #52057b89 4px solid;
 }
 
 .presentation-container{
@@ -311,30 +306,4 @@ textarea{
 }
 [type="submit"]:hover{
   background:#892CDC;
-}
-
-@media screen and (max-width: 1000px){
-  .header{
-    width: 1000px;
-  }
-
-  .footer{
-      width: 1000px;
-  }
-
-  .presentation{
-    width: 1000px;
-  }
-
-  .aboutMe{
-    width: 1000px;
-  }
-
-  .projects{
-    width: 1000px;
-  }
-
-  .contactMe{
-    width: 1000px;
-  }
 }
