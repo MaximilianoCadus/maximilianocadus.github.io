@@ -233,9 +233,20 @@ section{
 }
 
 .gamefinder{
-  background-image: url("../img/HomeBG4.jpg");
+  background-image: url("../img/GameFinder.PNG");
   background-size: cover;
 }
+
+.blog{
+  background-image: url("../img/Blog.PNG");
+  background-size: cover;
+}
+
+.website{
+  background-image: url("../img/Website.PNG");
+  background-size: cover;
+}
+
 
 .contactMe{
   margin-top: 80px;
@@ -300,4 +311,22 @@ textarea{
 }
 [type="submit"]:hover{
   background:#892CDC;
+}
+
+@media screen and (max-width: 500px){
+  .footer{
+      width: 1000px;
+  }
+
+  .aboutMe{
+    width: 1000px;
+  }
+
+  .projects{
+    width: 1000px;
+  }
+
+  .contactMe{
+    width: 1000px;
+  }
 }
