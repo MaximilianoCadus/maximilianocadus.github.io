@@ -313,9 +313,17 @@ textarea{
   background:#892CDC;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 1000px){
+  .header{
+    width: 1000px;
+  }
+
   .footer{
       width: 1000px;
+  }
+
+  .presentation{
+    width: 1000px;
   }
 
   .aboutMe{
