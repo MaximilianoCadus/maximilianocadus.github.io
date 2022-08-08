@@ -14,7 +14,7 @@ body {
 }
 
 .header {
-  height: 100px;
+  height: 80px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   position: fixed;
@@ -59,11 +59,11 @@ body {
   margin-right: 40px;
   margin-left: 40px;
   border: #000000 1px solid;
-  transition: border 0.4s linear;
-  -webkit-transition: border 0.4s linear , letter-spacing 0.4s linear;
-  -moz-transition: border 0.4s linear;
-  -ms-transition: border 0.4s linear;
-  -o-transition: border 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
 }
 
 .btn-nav:hover{
@@ -89,12 +89,9 @@ body {
 }
 
 .presentation-container{
-  height: auto;
-  width: 1000px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .img-container{
@@ -133,11 +130,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: background-color 0.4s linear;
-  -webkit-transition: background-color 0.4s linear;
-  -moz-transition: background-color 0.4s linear;
-  -ms-transition: background-color 0.4s linear;
-  -o-transition: background-color 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
 }
 
 .cv a:hover{
@@ -151,12 +148,16 @@ body {
 }
 
 .aboutMe{
-  margin-top: 150px;
+  margin-top: 100px;
+}
+
+section{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .aboutMe-container{
-  width: 70%;
-  padding-left: 30px;
+  width: 75%;
 }
 
 .section-number{
@@ -179,14 +180,13 @@ body {
 
 .projects{
   margin-top: 80px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .projects-container{
+  margin-top: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .project{
@@ -195,16 +195,16 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   font-family: Roboto Mono;
-  font-size: 20px;
-  transition: width 0.4s linear;
-  -webkit-transition: width 0.4s linear;
-  -moz-transition: width 0.4s linear;
-  -ms-transition: width 0.4s linear;
-  -o-transition: width 0.4s linear;
+  font-size: 25px;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
 }
 
 .project:hover{
-  width: 370px;
+  width: 400px;
 }
 
 .project p{
@@ -214,16 +214,16 @@ body {
   height: 100%;
   width: 100%;
   background-color: rgba(82, 5, 123, 0.7);
-  transition: background-color 0.4s linear , font-size 0.4s linear , letter-spacing 0.4s linear;
-  -webkit-transition: background-color 0.4s linear , font-size 0.4s linear , letter-spacing 0.4s linear;
-  -moz-transition: background-color 0.4s linear , font-size 0.4s linear , letter-spacing 0.4s linear;
-  -ms-transition: background-color 0.4s linear , font-size 0.4s linear , letter-spacing 0.4s linear;
-  -o-transition: background-color 0.4s linear , font-size 0.4s linear , letter-spacing 0.4s linear;
+  transition: all 0.4s linear;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
 }
 
 .project p:hover{
   background-color: rgba(82, 5, 123, 0.9);
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 3px;
 }
 
@@ -245,8 +245,6 @@ body {
 
 .contactMe{
   margin-top: 80px;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .contactMe-container{
